@@ -10,7 +10,7 @@ brew install koekeishiya/formulae/skhd
 ## Setup
 1. Clone config
 ```
-git clone git@github.com:jojoatt/yabai_config.git ~/.config/skhd
+git clone git@github.com:jojoatt/skhd_config.git ~/.config/skhd
 ```
 The skhd config will be in `skhdrc` file at `~/.config/skhd` path
 
