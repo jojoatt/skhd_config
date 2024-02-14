@@ -33,3 +33,13 @@ shift + alt - g : yabai -m window --display east; yabai -m display --focus east;
 #move window to prev and next space
 shift + alt - p : yabai -m window --space prev;
 shift + alt - n : yabai -m window --space next;
+
+# Resize windows
+ctrl + alt - h : yabai -m window --resize left:-50:0; \
+                  yabai -m window --resize right:-50:0
+ctrl + alt - j : yabai -m window --resize bottom:0:50; \
+                  yabai -m window --resize top:0:50
+ctrl + alt - k : yabai -m window --resize top:0:-50; \
+                  yabai -m window --resize bottom:0:-50
+ctrl + alt - l : yabai -m window --resize right:50:0; \
+                  yabai -m window --resize left:50:0
